@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="420" fill="url(#bg)"/>
+
+  <!-- Circuit Lines -->
+  <g stroke="url(#emerald)" stroke-width="2" opacity="0.35" fill="none">
+    <path d="M40 80 H260 V150 H520 V90 H760"/>
+    <path d="M1560 340 H1280 V260 H980 V330 H760"/>
+    <path d="M220 340 H420 V280 H620"/>
+    <path d="M1380 100 H1160 V180 H960"/>
+  </g>
+
+  <!-- Nodes -->
+  <g fill="#10b981" filter="url(#glow)">
+    <circle cx="260" cy="80" r="5"/>
+    <circle cx="520" cy="150" r="5"/>
+    <circle cx="760" cy="90" r="5"/>
+    <circle cx="1280" cy="340" r="5"/>
+    <circle cx="980" cy="260" r="5"/>
+    <circle cx="420" cy="340" r="5"/>
+    <circle cx="620" cy="280" r="5"/>
+    <circle cx="1160" cy="100" r="5"/>
+    <circle cx="960" cy="180" r="5"/>
+  </g>
+
+  <!-- Battery Outline -->
+  <g opacity="0.08" stroke="#10b981" stroke-width="5" fill="none">
+    <rect x="1180" y="90" width="170" height="70" rx="8"/>
+    <rect x="1350" y="112" width="10" height="26"/>
+  </g>
+
+  <!-- Title -->
+  <text
+      x="800"
+      y="170"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="52"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-weight="700">
+      SHYAM K S
+  </text>
+
+  <!-- Subtitle -->
+  <text
+      x="800"
+      y="220"
+      text-anchor="middle"
+      fill="#34d399"
+      font-size="24"
+      font-family="Segoe UI, Arial, sans-serif">
+      Embedded Systems • Electronics • Hardware Integration
+  </text>
+
+  <!-- Quote -->
+  <text
+      x="800"
+      y="270"
+      text-anchor="middle"
+      fill="#cbd5e1"
+      font-size="22"
+      font-family="Segoe UI, Arial, sans-serif">
+      Building embedded solutions that bridge hardware and software.
+  </text>
+</svg>
