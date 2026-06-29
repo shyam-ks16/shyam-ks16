@@ -3,19 +3,6 @@
   <img src="assets/banner.svg" alt="Shyam K S Banner" width="100%">
 </p>
 
-<div align="center">
-
-# Hi, I'm **Shyam K S** 👋
-
-### Embedded Systems Engineer in Progress
-
-*Building embedded solutions that bridge hardware and software.*
-
-[Portfolio](https://shyamks16.figma.site/) •
-[LinkedIn](https://www.linkedin.com/in/shyamks16) •
-[Email](mailto:shyamriya0@gmail.com)
-
-</div>
 
 ---
 
